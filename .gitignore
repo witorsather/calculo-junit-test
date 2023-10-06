@@ -1,7 +1,7 @@
 # Arquivos e Pastas do Sistema Operacional
 *.swp
 *.swo
-*.DS_Store
+.DS_Store
 Thumbs.db
 
 # Arquivos e Pastas do IDE (Ambiente de Desenvolvimento Integrado)
@@ -12,12 +12,13 @@ Thumbs.db
 .project
 .settings/
 
-# Pasta de build (construcao) e arquivos
+# Pasta de build (construção) e arquivos
 build/
 out/
 gradle/
+bin/
 
-# Pasta de distribuicao
+# Pasta de distribuição
 dist/
 
 # Pasta do Gradle
@@ -32,49 +33,29 @@ dist/
 # Pasta target (alvo) do Spring Boot
 target/
 
-# Arquivos e pastas gerados automaticamente durante a execucao
+# Arquivos e pastas gerados automaticamente durante a execução
 !gradle-wrapper.jar
 
-# Arquivos binarios temporarios
+# Arquivos binários temporários
 *.bin
 *.bak
 *.bak.*
 
-
-HELP.md
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### STS ###
+# Outros arquivos específicos do ambiente de desenvolvimento
 .apt_generated
-.classpath
 .factorypath
-.project
-.settings
-.springBeans
 .sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
+# Arquivos específicos do IntelliJ IDEA
 *.ipr
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
-### NetBeans ###
+# Arquivos específicos do NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
+# Arquivos específicos do VS Code
 .vscode/
