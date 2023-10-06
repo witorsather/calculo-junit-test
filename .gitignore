@@ -1,3 +1,46 @@
+# Arquivos e Pastas do Sistema Operacional
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Arquivos e Pastas do IDE (Ambiente de Desenvolvimento Integrado)
+.idea/
+*.iml
+*.iws
+.classpath
+.project
+.settings/
+
+# Pasta de build (construcao) e arquivos
+build/
+out/
+gradle/
+
+# Pasta de distribuicao
+dist/
+
+# Pasta do Gradle
+.gradle/
+
+# Arquivos de propriedades específicos do usuário
+*.properties
+
+# Arquivos de Logs
+*.log
+
+# Pasta target (alvo) do Spring Boot
+target/
+
+# Arquivos e pastas gerados automaticamente durante a execucao
+!gradle-wrapper.jar
+
+# Arquivos binarios temporarios
+*.bin
+*.bak
+*.bak.*
+
+
 HELP.md
 .gradle
 build/
